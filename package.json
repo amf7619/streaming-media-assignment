@@ -1,0 +1,30 @@
+{
+  "name": "streaming-media-assignment",
+  "version": "1.0.0",
+  "engines": {
+    "node": "v14.9.0",
+    "npm": "6.14.8"
+  },
+  "description": "Week 2 Streaming Media Assignment",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "pretest": "eslint ./src --fix",
+    "test": "echo \"Test Complete\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amf7619/streaming-media-assignment.git"
+  },
+  "author": "Anthony Ferraioli",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/amf7619/streaming-media-assignment/issues"
+  },
+  "homepage": "https://github.com/amf7619/streaming-media-assignment#readme",
+  "devDependencies": {
+    "eslint": "^7.8.0",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-plugin-import": "^2.22.0"
+  }
+}
